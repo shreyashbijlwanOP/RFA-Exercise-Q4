@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paragraph Using Media Query</title>
+    <style>
+        p{
+            font-family: sans-serif;
+            width: 90%;
+            padding: 10px 20px;
+            letter-spacing: 1.4px;
+            word-spacing: 3px;
+            line-height: 1.6rem;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: justify;
+            margin: auto;
+        }
+        @media (max-width:600px) {
+            p{
+                background-color: red;
+            }
+        }
+        @media (min-width:600px) {
+            p{
+                background-color:green;
+            }
+        }
+        @media (min-width:768px) {
+            p{
+                background-color:blue;
+            }
+        }
+        @media (min-width:992px) {
+            p{
+                background-color: orange;
+            }
+        }
+        @media (min-width:1200px) {
+            p{
+                background-color: pink;
+            }
+        }
+      
+
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga velit, laborum nam reiciendis amet hic,
+        sunt soluta error aliquid, itaque blanditiis id sed cumque laboriosam molestias. Qui, assumenda delectus
+        doloremque non perspiciatis sequi repellendus fugiat impedit obcaecati dolorem eos dolores, rerum rem! Quasi
+        repellat tenetur numquam. Assumenda incidunt veniam inventore voluptates. Beatae delectus facere debitis! Quos
+        aliquid aut repellat esse tempora. A, vero? Earum, ullam atque. Quam voluptate iusto reprehenderit, vel
+        asperiores veniam consectetur suscipit. Expedita, incidunt quos quis recusandae doloremque, rem dolores delectus
+        saepe sapiente eveniet aperiam magnam corrupti quae atque exercitationem beatae officiis dolore impedit
+        praesentium provident?</p>
+</body>
+
+</html>
